@@ -273,6 +273,14 @@ a:hover { opacity: .78; }
   border-radius: 999px;
   letter-spacing: .03em;
   border: 1px solid rgba(0,61,165,.15);
+  text-decoration: none !important;
+  transition: background var(--tr), border-color var(--tr), transform var(--tr);
+}
+a.badge:hover {
+  background: #d6e4ff;
+  border-color: rgba(0,61,165,.35);
+  transform: translateY(-1px);
+  opacity: 1;
 }
 
 /* Quick-link buttons */
